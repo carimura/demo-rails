@@ -10,7 +10,7 @@ default: &default
   timeout: 5000
 
 development:
-  <<: *defaultcd .
+  <<: *default
   database: rails_demo_dev
 
 # Warning: The database defined as "test" will be erased and
