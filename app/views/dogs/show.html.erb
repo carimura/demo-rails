@@ -1,0 +1,15 @@
+<h1>Dog</h1>
+
+<p>
+  <%= @dog.name %>
+</p>
+
+<br /><br />
+
+<%= link_to 'Delete Dog', dog_path(@dog), 
+    method: :delete, 
+    data: {confirm: "Are you sure?"} %>
+
+<br /><br />
+
+<a href="/dogs/">Back to List</a>
