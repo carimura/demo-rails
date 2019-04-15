@@ -22,4 +22,8 @@ test:
 
 production:
   <<: *default
-  database: rails_demo_prod
+  database: <%= ENV.fetch("DOGS_DB") %>
+  host: <%= ENV.fetch("DOGS_DB_HOST") %>
+  username: <%= ENV.fetch("DOGS_DB_USER") %>
+  password: <%= ENV.fetch("DOGS_DB_PASS") %>
+
