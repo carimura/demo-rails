@@ -1,4 +1,4 @@
-# README
+# Exciting Rails App like it's 2009
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
